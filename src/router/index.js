@@ -28,6 +28,10 @@ export default new Router({
         { path: ':id', component: TopList }
       ] 
     },
-    { path: '/search', name: 'search', component: Search }
+    { path: '/search', name: 'search', component: Search, children: 
+      [
+        { path: ':id', component: SingerDetail }
+      ]
+    }
   ]
 })
