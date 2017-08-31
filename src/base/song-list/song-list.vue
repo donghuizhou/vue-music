@@ -2,7 +2,7 @@
   <div class="song-list">
     <ul>
       <li @click="selectItem(song, index)" v-for="(song, index) in songs" class="item" :key="song.id">
-        <div class="rankIcon" v-show="rank">
+        <div class="rank" v-show="rank">
           <span :class="getRankCls(index)" v-text="getRankText(index)"></span>
         </div>
         <div class="content">
@@ -50,7 +50,7 @@ export default {
 }
 </script>
 
-<style lang='stylus'>
+<style lang='stylus' scoped>
   @import "~common/stylus/variable"
   @import "~common/stylus/mixin"
 
@@ -61,7 +61,7 @@ export default {
       box-sizing: border-box
       height: 64px
       font-size: $font-size-medium
-      .rankIcon
+      .rank
         flex: 0 0 25px
         width: 25px
         margin-right: 30px

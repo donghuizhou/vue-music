@@ -58,7 +58,7 @@ export default {
 }
 </script>
 
-<style lang='stylus'>
+<style scoped lang='stylus'>
   .slide-enter-active, .slide-leave-active
     transition: all 0.3s
   .slide-enter, .slide-leave-to 

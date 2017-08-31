@@ -30,7 +30,7 @@ export default {
 }
 </script>
 
-<style lang='stylus'>
+<style scoped lang='stylus'>
   @import "~common/stylus/variable"
 
   .search-list
