@@ -9,7 +9,7 @@
 import { getSingerList } from 'api/singer.js'
 import { ERR_OK } from 'api/config.js'
 import Singer from 'common/js/singer.js'
-import ListView from 'base/listview/listview.vue'
+import ListView from 'base/listView/listView.vue'
 import { mapMutations } from 'vuex'
 import { playlistMixin } from 'common/js/mixin.js'
 
