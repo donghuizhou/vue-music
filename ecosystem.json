@@ -16,7 +16,7 @@
       "user": "zhoudonghui",
       "host": ["116.196.124.81"],
       "port": "39999",
-      "ref": "oschina/master",
+      "ref": "origin/master",
       "repo": "git@git.oschina.net:zhoudonghui/vue-music.git",
       "path": "/www/music/production",
       "ssh_options": "StrictHostKeyChecking=no",
